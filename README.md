@@ -12,7 +12,8 @@ Offers flexibility in selecting transceiver types at nodes.
 Allows users to control and generate network traffic until reaching saturation.
 Getting Started
 To get started with OON, follow these steps:
-![Uploading live_evolution.gif…]()
+
+![live_evolution](https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f)
 
 # Clone the repository to your local machine.
 Install the necessary dependencies (provide instructions if any).
