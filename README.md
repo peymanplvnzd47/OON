@@ -14,9 +14,8 @@ Getting Started
 To get started with OON, follow these steps:
 ## Code Explanation
 
-### Steps to Use the Code
 
-```python
+
 # Define File Input
 file_input = input_folder / 'network.json'
 
@@ -40,7 +39,10 @@ network.initialize_switching_matrices()
 # Update Switching Matrices
 block_adjacent = False
 network.update_switching_matrices(best_path, best_channel, block_adjacent)
-```python
+
+
+
+
 <img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="600" alt="live_evolution">
 
 
