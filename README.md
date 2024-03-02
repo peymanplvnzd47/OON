@@ -44,7 +44,10 @@ network.update_switching_matrices(best_path, best_channel, block_adjacent)
 
 
 <img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="600" alt="live_evolution">
-![image](https://github.com/peymanplvnzd47/OON/assets/62776383/4233cb13-0abf-46dc-b644-f0b3959a6067)
+
+
+![image](https://github.com/peymanplvnzd47/OON/assets/62776383/cc29afe7-e0ed-49d6-839c-fdf13d777128)
+
 
 
 # Clone the repository to your local machine.
