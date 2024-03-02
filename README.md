@@ -64,7 +64,9 @@ block_adjacent = False
 network.update_switching_matrices(best_path, best_channel, block_adjacent)
 
 ```
+In the provided GIF, you can observe how the simulator generates traffic based on the network configuration, following the traffic request matrix in a randomized manner until saturation occurs.
 
+The GIF illustrates the progressive saturation of links over time. As the simulation runs, you'll notice how the distribution of parameters such as gsnr, latency, and bitrate for each connection is depicted in the output.
 
 <img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="600" alt="live_evolution">
 
