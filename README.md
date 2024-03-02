@@ -13,7 +13,8 @@ Allows users to control and generate network traffic until reaching saturation.
 Getting Started
 To get started with OON, follow these steps:
 
-![live_evolution](https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f)
+<img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="300" alt="live_evolution">
+
 
 # Clone the repository to your local machine.
 Install the necessary dependencies (provide instructions if any).
