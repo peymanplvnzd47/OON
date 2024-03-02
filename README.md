@@ -68,7 +68,7 @@ network.update_switching_matrices(best_path, best_channel, block_adjacent)
 # Output of the simulator
 In the provided GIF, you can observe how the simulator generates traffic based on the network configuration, following the traffic request matrix in a randomized manner until saturation occurs.
 
-The GIF illustrates the progressive saturation of links over time. As the simulation runs, you'll notice how the distribution of parameters such as gsnr, latency, and bitrate for each connection is depicted in the output.
+The GIF illustrates the progressive saturation of links over time. As the simulation runs, you'll notice how the distribution of parameters such as GSNR, latency, and bitrate for each connection is depicted in the output.
 
 <img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="600" alt="live_evolution">
 
@@ -77,18 +77,16 @@ The GIF illustrates the progressive saturation of links over time. As the simula
 
 
 
-# Clone the repository to your local machine.
-Install the necessary dependencies (provide instructions if any).
-Run the simulator with your desired configurations.
-Explore the generated results and analyze network behavior.
-Usage
-Include instructions on how to use the simulator, specifying how to configure the network layout, set transceiver types, generate traffic, and analyze results.
 
 # Contribution
-Contributions to OON are welcome! If you'd like to contribute, please follow these guidelines (provide guidelines if any).
+Contributions to OON are welcome! If you'd like to contribute, please contact kianphysics@gmail.com
 
-# License
-Specify the license under which the project is distributed.
+
+
+# Ownership and Authorship
+
+The code in this project is authored by Peyman Pahlevanzadeh and is protected under applicable copyright laws.
+
 
 Contact
-If you have any questions or suggestions regarding OON, feel free to contact [maintainer's name/email].
+If you have any questions or suggestions regarding OON, feel free to contact kianphysics@gmail.com. 
