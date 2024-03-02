@@ -12,7 +12,30 @@ Offers flexibility in selecting transceiver types at nodes.
 Allows users to control and generate network traffic until reaching saturation.
 Getting Started
 To get started with OON, follow these steps:
-## Code Explanation
+1. Define File Input:
+   - This line sets the `file_input` variable to the path of the 'network.json' file within the specified input folder.
+
+2. Define Transmission Strategy:
+   - Here, `TRx_strategy` is initialized with a list containing a single transmission strategy, 'fixed-rate'. Other strategies like 'shannon' or 'flex-rate' can be added as needed.
+
+3. Initialize Network:
+   - A `Network` object is instantiated using the `file_input` defined earlier.
+
+4. Set Transceivers for All Nodes:
+   - This line sets the transceiver strategy for all nodes in the network based on the `TRx_strategy` defined earlier.
+
+5. Create Route Space DataFrames:
+   - Two DataFrames, `route_space_snr` and `route_space_latency`, are created to store route space information related to signal-to-noise ratio (SNR) and latency, respectively.
+
+6. Release Channels and Initialize Switching Matrices:
+   - All channels are released, and switching matrices are initialized to prepare for subsequent operations.
+
+7. Update Switching Matrices:
+   - The switching matrices are updated based on the best path and channel determined by some logic, optionally considering adjacent blockages based on the value of `block_adjacent`.
+
+
+
+# Code Explanation
 
 
 ```python
