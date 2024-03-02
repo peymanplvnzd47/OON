@@ -12,6 +12,34 @@ Offers flexibility in selecting transceiver types at nodes.
 Allows users to control and generate network traffic until reaching saturation.
 Getting Started
 To get started with OON, follow these steps:
+## Code Explanation
+
+### Steps to Use the Code
+
+```python
+# Define File Input
+file_input = input_folder / 'network.json'
+
+# Define Transmission Strategy
+TRx_strategy = ['fixed-rate'] # shannon , flex-rate
+
+# Initialize Network
+network = Network(file_input)
+
+# Set Transceivers for All Nodes
+network.set_transceiver_for_all_nodes(TRx_strategy_indx)
+
+# Create Route Space DataFrames
+route_space_snr = network.create_route_space_dataframe()
+route_space_latency = network.create_route_space_dataframe()
+
+# Release Channels and Initialize Switching Matrices
+network.release_all_channels()
+network.initialize_switching_matrices()
+
+# Update Switching Matrices
+block_adjacent = False
+network.update_switching_matrices(best_path, best_channel, block_adjacent)
 
 <img src="https://github.com/peymanplvnzd47/OON/assets/62776383/598608da-c712-4bd2-8b23-75829edfd69f" width="600" alt="live_evolution">
 
